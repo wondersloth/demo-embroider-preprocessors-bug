@@ -1,0 +1,21 @@
+{
+  "name": "demo-embroider-preprocessors-bug",
+  "version": "0.0.0",
+  "description": "A demo of embroider preprocessors bug",
+  "main": "index.js",
+  "repository": "https://github.com/wondersloth/demo-embroider-preprocessors-bug.git",
+  "author": "Matthew Edwards <medwards@linkedin.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/sample-app",
+    "packages/some-addon"
+  ],
+  "resolutions": {
+    "ember-auto-import": "^2.4.1"
+  },
+  "volta": {
+    "node": "14.19.1",
+    "yarn": "1.22.10"
+  }
+}
