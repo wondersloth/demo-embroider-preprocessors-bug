@@ -1,9 +1,9 @@
 # embroider-preprocessors-bug
 
 ## Problem
-In an **embroider** passes a tree to a registered preprocessor. The tree passed into the toTree method is not scoped to the `moduleName`
+In an **embroider** build, the tree passed to a registered preprocessor is not scoped to the `moduleName`.
 
-In **classic** builds ember-cli will namespace the tree passed into preprocessors:
+In **classic** builds ember-cli will namespace will add a `destDir` for the `moduleName` to the tree when passed to preprocessors:
 https://github.com/ember-cli/ember-cli/blob/177f52340dcaa59cf27402ed77fda5e55860fd35/lib/models/addon.js#L1195
 
 ## Steps to Reproduce
