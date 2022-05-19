@@ -9,7 +9,8 @@
   "private": true,
   "workspaces": [
     "packages/sample-app",
-    "packages/some-addon"
+    "packages/some-addon",
+    "packages/some-addon-with-preprocessor"
   ],
   "resolutions": {
     "ember-auto-import": "^2.4.1"

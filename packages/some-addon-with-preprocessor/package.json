@@ -1,5 +1,5 @@
 {
-  "name": "some-addon",
+  "name": "some-addon-with-preprocessor",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
@@ -27,8 +27,7 @@
   },
   "dependencies": {
     "ember-cli-babel": "^7.26.11",
-    "ember-cli-htmlbars": "^6.0.1",
-    "some-addon-with-preprocessor": "0.0.0"
+    "ember-cli-htmlbars": "^6.0.1"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
