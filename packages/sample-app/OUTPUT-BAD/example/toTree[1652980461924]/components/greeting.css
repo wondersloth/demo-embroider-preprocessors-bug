@@ -1,0 +1,8 @@
+/*path@components/greeting.css*/
+.greeting-container {
+  border: 1px dashed green;
+}
+
+.greeting-message {
+  color: green;
+}

@@ -34,7 +34,7 @@ $ cd packages/sample-app
 ```
 
 ``` bash
-$ EMBROIDER=false BROCCOLI_DEBUG=example:* node ./node_modules/.bin/ember build  
+$ EMBROIDER=false BROCCOLI_DEBUG=example:* node ./node_modules/.bin/ember build 
 ```
 
 Inspect the `DEBUG` directory structure. Notice it contains a directory with the `moduleName`.
@@ -99,3 +99,5 @@ $ tree -L 3 ./DEBUG
 
 13 directories, 2 files
 ```
+
+![Screenshot of filesystem directory issue](./screenshot.png)

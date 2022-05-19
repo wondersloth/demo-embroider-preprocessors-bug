@@ -1,0 +1,4 @@
+/*path@sample-app/styles/application.css*/
+.app-container {
+  composes: addon-container from 'some-addon/components/layout.css';
+}

@@ -4,9 +4,7 @@
 const { map } = require('broccoli-stew');
 // eslint-disable-next-line node/no-unpublished-require
 const BroccoliDebug = require('broccoli-debug');
-let debugTree = BroccoliDebug.buildDebugCallback(
-  'my-debug:some-addon-with-preprocessor'
-);
+let debugTree = BroccoliDebug.buildDebugCallback('example');
 
 function getUniqueId() {
   return Date.now();
